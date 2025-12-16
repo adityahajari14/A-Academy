@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Playfair_Display, Poppins, Montserrat } from "next/font/google";
+import { Playfair_Display, Poppins, Montserrat, Inter } from "next/font/google";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -19,6 +19,12 @@ const montserrat = Montserrat({
   weight: ["500", "600", "700"],
 });
 
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  weight: ["300", "400", "500", "600", "700"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${poppins.variable} ${montserrat.variable}`}>
+      <body className={`${playfair.variable} ${poppins.variable} ${montserrat.variable} ${inter.variable}`}>
         {children}
       </body>
     </html>

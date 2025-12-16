@@ -4,6 +4,8 @@ import Image from "next/image";
 import Header from "./components/Header";
 import WhyAcademy from "./components/WhyAcademy";
 import AboutUs from "./components/AboutUs";
+import Founders from "./components/Founders";
+import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -125,6 +127,12 @@ export default function Home() {
 
       {/* About Us Section */}
       <AboutUs language={language === "Hebrew" ? "he" : "en"} />
+
+      {/* Founders Section */}
+      <Founders />
+
+      {/* Footer */}
+      <Footer />
     </>
   );
 }
