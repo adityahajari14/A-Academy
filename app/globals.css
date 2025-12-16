@@ -48,10 +48,10 @@ body {
 }
 
 .slide-in {
-  animation: slideInFromRight 1.5s ease-in-out forwards;
+  animation: slideInFromRight 1s ease-in-out forwards;
 }
 
 .slide-out {
-  animation: slideOutToLeft 1.5s ease-in-out forwards;
+  animation: slideOutToLeft 1s ease-in-out forwards;
 }
 
