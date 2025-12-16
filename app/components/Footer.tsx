@@ -10,16 +10,14 @@ export default function Footer() {
       {/* Main Footer Content */}
       <div className="flex flex-col md:flex-row">
         {/* Left Section - Logo & Button */}
-        <div className="px-6 md:px-16 py-8 md:py-12 md:w-1/2 flex flex-col items-start gap-8">
-          <div className="flex flex-col gap-3">
+        <div className="px-6 md:px-32 py-8 md:py-12 md:w-1/2 flex flex-col items-start gap-8">
+          <div className="flex flex-col">
             <Image
               src="/Logo.svg"
               alt="A+ Academy"
               width={140}
               height={140}
             />
-            {/* Green line below logo */}
-            <div className="h-0.5 w-24 bg-[#008A01]" />
           </div>
 
           {/* Main Headlines Stacked */}
@@ -43,13 +41,13 @@ export default function Footer() {
 
         {/* Right Section - Contact & Social with Border */}
         <div className="md:w-1/2 border-l-2 border-t-2 border-[#008A01] rounded-tl-[4rem] pl-8 md:pl-16 pt-8 md:pt-12 pr-6 md:pr-12 py-8 md:py-12 flex flex-col gap-20 justify-between">
-          <div className="flex flex-col md:flex-row justify-start gap-12 md:gap-20">
+          <div className="flex flex-col md:flex-row justify-start gap-120 md:gap-40">
             {/* Contact Section */}
             <div className="flex flex-col gap-3">
-              <p className="font-[family-name:var(--font-inter)] text-xs font-bold text-[#FF6B35] uppercase tracking-wider">
+              <p className="font-[family-name:var(--font-inter)] text-xs font-bold text-[#CF7A47] uppercase tracking-wider">
                 Contact
               </p>
-              <div className="font-[family-name:var(--font-inter)] text-sm md:text-base text-black space-y-2">
+              <div className="font-[family-name:var(--font-inter)] text-sm md:text-base text-black space-y-1">
                 <p>+1 (323) 275-1718</p>
                 <p>hello@logoissum.com</p>
               </div>
@@ -57,47 +55,47 @@ export default function Footer() {
 
             {/* Social Media Section */}
             <div className="flex flex-col gap-4">
-              <p className="font-[family-name:var(--font-inter)] text-xs font-bold text-[#FF6B35] uppercase tracking-wider">
+              <p className="font-[family-name:var(--font-inter)] text-xs font-bold text-[#CF7A47] uppercase tracking-wider">
                 Follow Us
               </p>
-              <div className="flex gap-5">
+              <div className="flex gap-2">
                 <Link
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-9 h-9 border-2 border-[#FF6B35] rounded-full hover:bg-[#FF6B35] hover:scale-110 transition-all duration-300"
+                  className="inline-flex items-center justify-center w-14 h-14 border-1 border-[rgba(207,122,71,0.4)] rounded-full hover:scale-110 transition-all duration-300"
                 >
                   <Image
-                    src="/Icons/instagramblank.svg"
+                    src="/icons/instagramblank.svg"
                     alt="Instagram"
-                    width={18}
-                    height={18}
+                    width={20}
+                    height={20}
                   />
                 </Link>
                 <Link
                   href="https://wa.me"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-9 h-9 border-2 border-[#FF6B35] rounded-full hover:bg-[#FF6B35] hover:scale-110 transition-all duration-300"
+                  className="inline-flex items-center justify-center w-14 h-14 border-1 border-[rgba(207,122,71,0.4)] rounded-full hover:scale-110 transition-all duration-300"
                 >
                   <Image
-                    src="/Icons/whatsappblank.svg"
+                    src="/icons/whatsappblank.svg"
                     alt="WhatsApp"
-                    width={18}
-                    height={18}
+                    width={20}
+                    height={20}
                   />
                 </Link>
                 <Link
                   href="https://telegram.me"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-9 h-9 border-2 border-[#FF6B35] rounded-full hover:bg-[#FF6B35] hover:scale-110 transition-all duration-300"
+                  className="inline-flex items-center justify-center w-14 h-14 border-1 border-[rgba(207,122,71,0.4)] rounded-full hover:scale-110 transition-all duration-300"
                 >
                   <Image
-                    src="/Icons/telegramblank.svg"
+                    src="/icons/telegramblank.svg"
                     alt="Telegram"
-                    width={18}
-                    height={18}
+                    width={20}
+                    height={20}
                   />
                 </Link>
               </div>
