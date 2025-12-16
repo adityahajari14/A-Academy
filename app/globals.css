@@ -55,3 +55,56 @@ body {
   animation: slideOutToLeft 1s ease-in-out forwards;
 }
 
+/* Additional directions for ping-pong effect */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutToRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+.slide-in-left {
+  animation: slideInFromLeft 1s ease-in-out forwards;
+}
+
+.slide-out-right {
+  animation: slideOutToRight 1s ease-in-out forwards;
+}
+
+
+/* AboutUs bounce animations: smooth left-right motion */
+@keyframes bounceLR_A {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes bounceLR_B {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-10%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-bounce-lr-a {
+  animation: bounceLR_A 1s ease-in-out infinite;
+}
+
+.animate-bounce-lr-b {
+  animation: bounceLR_B 1s ease-in-out infinite;
+}
+

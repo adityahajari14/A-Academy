@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import WhyAcademy from "./components/WhyAcademy";
+import AboutUs from "./components/AboutUs";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -121,6 +122,9 @@ export default function Home() {
 
       {/* Why Academy Section */}
       <WhyAcademy language={language === "Hebrew" ? "he" : "en"} />
+
+      {/* About Us Section */}
+      <AboutUs language={language === "Hebrew" ? "he" : "en"} />
     </>
   );
 }
