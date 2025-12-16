@@ -4,6 +4,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import WhyAcademy from "./components/WhyAcademy";
 import AboutUs from "./components/AboutUs";
+import BookCall from "./components/BookCall";
 import Founders from "./components/Founders";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
@@ -70,14 +71,14 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-40 max-w-5xl mt-48">
+        <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 py-40 max-w-5xl mt-56">
           {/* Title */}
-          <h1 className="font-[family-name:var(--font-playfair)] text-white text-3xl md:text-4xl lg:text-5xl font-medium mb-3 tracking-tight">
+          <h1 className="font-[family-name:var(--font-playfair)] text-white text-3xl md:text-4xl lg:text-5xl font-[500] mb-3 tracking-tight">
             A+ Academy
           </h1>
 
           {/* Tagline */}
-          <h2 className="font-[family-name:var(--font-playfair)] text-white text-2xl md:text-4xl lg:text-5xl font-medium mb-8 tracking-wide">
+          <h2 className="font-[family-name:var(--font-playfair)] text-white text-2xl md:text-4xl lg:text-5xl font-[500] mb-8 tracking-wide">
             “Where progress begins.”
           </h2>
 
@@ -88,7 +89,7 @@ export default function Home() {
           </p>
 
           {/* CTA Button */}
-          <button className="font-[family-name:var(--font-montserrat)] bg-[#008A01] hover:bg-[#00800F] text-white text-base md:text-lg font-semibold px-10 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 mb-20">
+          <button className="font-[family-name:var(--font-montserrat)] bg-[#008A01] hover:bg-[#00800F] text-white text-base md:text-lg font-semibold px-10 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 mb-10">
             Get Started
           </button>
 
@@ -127,6 +128,9 @@ export default function Home() {
 
       {/* About Us Section */}
       <AboutUs language={language === "Hebrew" ? "he" : "en"} />
+
+      {/* Book Call Section */}
+      <BookCall language={language === "Hebrew" ? "he" : "en"} />
 
       {/* Founders Section */}
       <Founders />

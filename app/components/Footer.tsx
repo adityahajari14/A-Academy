@@ -22,10 +22,10 @@ export default function Footer() {
 
           {/* Main Headlines Stacked */}
           <div className="flex flex-col gap-1">
-            <h2 className="font-[family-name:var(--font-inter)] text-xl md:text-2xl font-medium text-black leading-tight">
+            <h2 className="font-[family-name:var(--font-inter)] text-xl md:text-2xl font-[500] text-black leading-tight">
               Next Step Academy
             </h2>
-            <h3 className="font-[family-name:var(--font-inter)] text-xl md:text-2xl font-medium text-black leading-tight">
+            <h3 className="font-[family-name:var(--font-inter)] text-xl md:text-2xl font-[500] text-black leading-tight">
               Where progress begins.
             </h3>
           </div>
@@ -33,7 +33,7 @@ export default function Footer() {
           {/* CTA Button */}
           <Link
             href="#contact"
-            className="font-[family-name:var(--font-inter)] bg-[#008A01] hover:bg-[#00800F] text-white text-base font-medium px-8 py-2 rounded-full transition-all duration-300 hover:shadow-lg"
+            className="font-[family-name:var(--font-inter)] bg-[#008A01] hover:bg-[#00800F] text-white text-base font-[500] px-8 py-2 rounded-full transition-all duration-300 hover:shadow-lg"
           >
             Drop a line
           </Link>
