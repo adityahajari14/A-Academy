@@ -133,7 +133,7 @@ export default function Home() {
       <BookCall language={language === "Hebrew" ? "he" : "en"} />
 
       {/* Founders Section */}
-      <Founders />
+      <Founders language={language === "Hebrew" ? "he" : "en"} />
 
       {/* Footer */}
       <Footer />

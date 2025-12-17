@@ -48,8 +48,9 @@ export default function Footer() {
                 Contact
               </p>
               <div className="font-[family-name:var(--font-inter)] text-sm md:text-base text-black space-y-1">
-                <p>+1 (323) 275-1718</p>
-                <p>hello@logoissum.com</p>
+                <p>0526653443</p>
+                <p>aplusacademy2525@gmail.com</p>
+                <p>Ma'alot-tarshiha, Rehov HaKnesiyot 10</p>
               </div>
             </div>
 
@@ -60,7 +61,7 @@ export default function Footer() {
               </p>
               <div className="flex gap-2">
                 <Link
-                  href="https://instagram.com"
+                  href="https://instagram.com/A.plus.academy25"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-14 h-14 border-1 border-[rgba(207,122,71,0.4)] rounded-full hover:scale-110 transition-all duration-300"
@@ -68,32 +69,6 @@ export default function Footer() {
                   <Image
                     src="/icons/instagramblank.svg"
                     alt="Instagram"
-                    width={20}
-                    height={20}
-                  />
-                </Link>
-                <Link
-                  href="https://wa.me"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-14 h-14 border-1 border-[rgba(207,122,71,0.4)] rounded-full hover:scale-110 transition-all duration-300"
-                >
-                  <Image
-                    src="/icons/whatsappblank.svg"
-                    alt="WhatsApp"
-                    width={20}
-                    height={20}
-                  />
-                </Link>
-                <Link
-                  href="https://telegram.me"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-14 h-14 border-1 border-[rgba(207,122,71,0.4)] rounded-full hover:scale-110 transition-all duration-300"
-                >
-                  <Image
-                    src="/icons/telegramblank.svg"
-                    alt="Telegram"
                     width={20}
                     height={20}
                   />

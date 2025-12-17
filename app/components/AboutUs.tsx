@@ -42,12 +42,12 @@ export default function AboutUs({ language = "en" }: AboutUsProps) {
     en: {
       title: "About Us",
       body:
-        "Next Step Academy was founded with a clear educational vision: to provide students with professional, personal, and high-quality support on their path to academic success and achievement in the matriculation exams. The academy was established especially for students who seek to realize their full potential in a supportive, encouraging, and goal-oriented environment.",
+        "Our academy specializes in teaching mathematics and core academic subjects, offering private and group lessons tailored to each student's level and personal needs. At our academy, every student receives close guidance, a personalized learning plan, and innovative teaching methods that make complex topics simple and clear. Through personal attention, patience, and professional mentoring, we help students build confidence, achieve deep understanding, and gain practical tools for success. We believe there's no such thing as a student who cannot succeed — only one who hasn't yet received the right guidance.",
     },
     he: {
       title: "עלינו",
       body:
-        "האקדמיה הצעד הבא הוקמה מתוך חזון חינוכי ברור: להעניק לתלמידים תמיכה מקצועית, אישית ואיכותית בדרכם להצלחה אקדמית ולהישגים בבחינות הבגרות. האקדמיה נוסדה במיוחד עבור תלמידים השואפים לממש את מלוא הפוטנציאל שלהם בסביבה תומכת, מעודדת ומכוונת מטרה.",
+        "האקדמיה שלנו מתמחה בהוראת מתמטיקה ומקצועות לימוד מרכזיים, ומעניקה שיעורים פרטיים וקבוצתיים המותאמים לכל תלמיד לפי רמתו וצרכיו האישיים. באקדמיה שלנו כל תלמיד זוכה לליווי צמוד, תוכנית לימודים אישית ושיטות הוראה חדשניות ההופכות נושאים מורכבים לפשוטים וברורים. באמצעות יחס אישי, סבלנות והכוונה מקצועית, אנו עוזרים לתלמידים לפתח ביטחון בלמידה, להבין לעומק את החומר ולרכוש כלים אמיתיים להצלחה. באקדמיה שלנו אנו מאמינים שאין תלמיד שלא יכול – יש רק תלמיד שעדיין לא קיבל את ההכוונה הנכונה.",
     },
   } as const;
 
