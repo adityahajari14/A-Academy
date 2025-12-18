@@ -27,7 +27,7 @@ export default function Home() {
       cta: "Get Started",
     },
     he: {
-      title: "A+ Academy",
+      title: "אקדמיית A+",
       tagline: '"פתח את הפוטנציאל שלך"',
       description:
         "החזון שלנו הוא ללוות כל תלמיד עד למימוש הפוטנציאל האישי שלו, בקצב המתאים לו, בדרך שלו, ועם חוויית הצלחה אמיתית.",
