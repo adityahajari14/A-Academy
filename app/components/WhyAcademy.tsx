@@ -14,7 +14,7 @@ export default function WhyAcademy({ language }: WhyAcademyProps) {
 
   const content = {
     en: {
-      title: "Why Next Step Academy",
+      title: "Why A+ Step Academy",
       cards: [
         {
           icon: "/Icons/Exam.svg",
@@ -37,7 +37,7 @@ export default function WhyAcademy({ language }: WhyAcademyProps) {
       ],
     },
     he: {
-      title: "למה אקדמיית הצעד הבא",
+      title: "למה אקדמיית A+",
       cards: [
         {
           icon: "/Icons/Exam.svg",
