@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Playfair_Display, Poppins, Montserrat, Inter, Open_Sans } from "next/font/google";
+import type { Metadata } from "next";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -30,6 +31,20 @@ const openSans = Open_Sans({
   variable: "--font-open-sans",
   weight: ["300", "400", "600", "700"],
 });
+
+export const metadata: Metadata = {
+  title: "A+ Academy - Where Progress Begins",
+  description: "A+ Academy - Mathematics education with personalized approach, clear explanations, and individual attention for every student.",
+  icons: {
+    icon: [
+      { url: "/Logo.svg", type: "image/svg+xml" },
+      { url: "/Logo.svg", type: "image/svg+xml", sizes: "any" },
+    ],
+    apple: [
+      { url: "/Logo.svg", sizes: "180x180", type: "image/svg+xml" },
+    ],
+  },
+};
 
 export default function RootLayout({
   children,
