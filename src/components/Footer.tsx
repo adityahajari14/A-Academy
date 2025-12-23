@@ -14,9 +14,9 @@ export default function Footer({ language }: FooterProps) {
   const content = {
     en: {
       academyName: "A+ Academy",
-      tagline: "Where progress begins.",
+      tagline: "Unlock your potential",
       contact: "Contact",
-      phone: "0526653443",
+      phone: "+972 526653443",
       email: "aplusacademy2525@gmail.com",
       address: "Ma'alot-tarshiha, Rehov HaKnesiyot 10",
       followUs: "Follow Us",
@@ -24,9 +24,9 @@ export default function Footer({ language }: FooterProps) {
     },
     he: {
       academyName: "אקדמיית A+",
-      tagline: "היכן מתחילה ההתקדמות.",
+      tagline: "פתח את הפוטנציאל שלך",
       contact: "יצירת קשר",
-      phone: "0526653443",
+      phone: "+972 526653443",
       email: "aplusacademy2525@gmail.com",
       address: "מעלות-תרשיחא, רחוב הכנסיות 10",
       followUs: "עקבו אחרינו",

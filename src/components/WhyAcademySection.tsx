@@ -108,19 +108,13 @@ export default function WhyAcademySection({ language }: WhyAcademySectionProps) 
             ],
             features: [
                 {
-                    text: "Preparation for middle school students transitioning to high school, including placement exams",
+                    text: "A Structured Approach Built for Measurable Progress",
                 },
                 {
-                    text: "High school preparation | 3–4–5 study units",
+                    text: "Building Strong Foundations for Consistent Academic Excellence.",
                 },
                 {
-                    text: "Private tutoring and small group classes",
-                },
-                {
-                    text: "Online (virtual) lessons and in-class sessions",
-                },
-                {
-                    text: "Personalized academic mentorship focused on building confidence, discipline, and independent thinking",
+                    text: "Small Groups. Personal Focus. Real Progress",
                 }
             ]
         },
@@ -135,19 +129,13 @@ export default function WhyAcademySection({ language }: WhyAcademySectionProps) 
             ],
             features: [
                 {
-                    text: "הכנה לתלמידי חטיבת ביניים המעברים לתיכון, כולל בחינות מיון",
+                    text: "גישה מובנית הבנויה להתקדמות מדידה",
                 },
                 {
-                    text: "הכנה לבגרות | 3–4–5 יחידות לימוד",
+                    text: "בניית יסודות חזקים למצוינות אקדמית עקבית",
                 },
                 {
-                    text: "שיעורים פרטיים ושיעורים בקבוצות קטנות",
-                },
-                {
-                    text: "שיעורים מקוונים (וירטואליים) ומפגשים בכיתה",
-                },
-                {
-                    text: "חונכות אקדמית מותאמת אישית המתמקדת בבניית ביטחון, משמעת וחשיבה עצמאית",
+                    text: "קבוצות קטנות. תשומת לב אישית. התקדמות אמיתית",
                 }
             ]
         },
