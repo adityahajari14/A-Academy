@@ -104,7 +104,7 @@ export default function Footer({ language }: FooterProps) {
                 />
               </Link>
               <Link
-                href="https://wa.me/0526653443"
+                href="https://wa.me/+9720526653443"
                 className="w-10 h-10 sm:w-12 sm:h-12 md:w-[50px] md:h-[50px] hover:scale-110 transition-transform duration-300"
               >
                 <Image
