@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import AboutAcademy from "@/components/AboutAcademy";
 import WhyAcademySection from "@/components/WhyAcademySection";
 import ContactForm from "@/components/ContactForm";
+import Founders from "@/components/Founders";
 import Footer from "@/components/Footer";
 import Loader from "@/components/Loader";
 import { useState, useEffect } from "react";
@@ -59,6 +60,7 @@ export default function Home() {
       {/* About Academy Section */}
       <section id="about">
         <AboutAcademy language={language === "Hebrew" ? "he" : "en"} />
+        <Founders language={language === "Hebrew" ? "he" : "en"} />
       </section>
 
       {/* Why Academy Section */}
