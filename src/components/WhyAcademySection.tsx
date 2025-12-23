@@ -100,9 +100,9 @@ export default function WhyAcademySection({ language }: WhyAcademySectionProps) 
         en: {
             title: "Why A+ Academy?",
             description:
-                "With over 77 years of combined teaching experience, A+ Academy has helped more than 1000 students achieve their academic goals. Our proven track record of 98% success rate speaks to our commitment to excellence. We combine expertise, personalized attention, and innovative teaching methods to ensure every student reaches their full potential in mathematics.",
+                "With over 44 years of combined teaching experience, A+ Academy has helped more than 1000 students achieve their academic goals. Our proven track record of 98% success rate speaks to our commitment to excellence. We combine expertise, personalized attention, and innovative teaching methods to ensure every student reaches their full potential in mathematics.",
             stats: [
-                { value: "77+", label: "Years of Experience" },
+                { value: "44+", label: "Years of Experience" },
                 { value: "98%", label: "Success Rate" },
                 { value: "1000+", label: "Students" },
             ],
@@ -127,9 +127,9 @@ export default function WhyAcademySection({ language }: WhyAcademySectionProps) 
         he: {
             title: "למה אקדמיית A+?",
             description:
-                "עם יותר מ-77 שנות ניסיון משולבות בהוראה, אקדמיית A+ עזרה ליותר מ-1000 תלמידים להשיג את המטרות האקדמיות שלהם. שיעור ההצלחה המוכח שלנו של 98% מעיד על המחויבות שלנו למצוינות. אנו משלבים מומחיות, תשומת לב אישית ושיטות הוראה חדשניות כדי להבטיח שכל תלמיד יגיע לפוטנציאל המלא שלו במתמטיקה.",
+                "עם יותר מ-44 שנות ניסיון משולבות בהוראה, אקדמיית A+ עזרה ליותר מ-1000 תלמידים להשיג את המטרות האקדמיות שלהם. שיעור ההצלחה המוכח שלנו של 98% מעיד על המחויבות שלנו למצוינות. אנו משלבים מומחיות, תשומת לב אישית ושיטות הוראה חדשניות כדי להבטיח שכל תלמיד יגיע לפוטנציאל המלא שלו במתמטיקה.",
             stats: [
-                { value: "77+", label: "שנות ניסיון" },
+                { value: "44+", label: "שנות ניסיון" },
                 { value: "98%", label: "אחוז הצלחה" },
                 { value: "1000+", label: "תלמידים" },
             ],
