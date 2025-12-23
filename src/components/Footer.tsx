@@ -47,7 +47,7 @@ export default function Footer({ language }: FooterProps) {
           {/* Logo */}
           <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-[71px] lg:h-[71px]">
             <Image
-              src="/logo.svg"
+              src="/Logo.svg"
               alt="Academy Logo"
               width={71}
               height={71}
