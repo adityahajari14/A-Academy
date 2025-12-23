@@ -13,24 +13,24 @@ export default function Footer({ language }: FooterProps) {
 
   const content = {
     en: {
-      academyName: "Next Step Academy",
+      academyName: "A+ Academy",
       tagline: "Where progress begins.",
       contact: "Contact",
       phone: "0526653443",
       email: "aplusacademy2525@gmail.com",
       address: "Ma'alot-tarshiha, Rehov HaKnesiyot 10",
       followUs: "Follow Us",
-      copyright: `© ${currentYear} — Copyright`,
+      copyright: `© ${currentYear} — A+ Academy. All rights reserved.`,
     },
     he: {
-      academyName: "אקדמיית הצעד הבא",
-      tagline: "איפה ההתקדמות מתחילה.",
+      academyName: "אקדמיית A+",
+      tagline: "היכן מתחילה ההתקדמות.",
       contact: "יצירת קשר",
       phone: "0526653443",
       email: "aplusacademy2525@gmail.com",
       address: "מעלות-תרשיחא, רחוב הכנסיות 10",
       followUs: "עקבו אחרינו",
-      copyright: `© ${currentYear} — כל הזכויות שמורות`,
+      copyright: `© ${currentYear} — A+ Academy. כל הזכויות שמורות.`,
     },
   };
 
@@ -104,7 +104,7 @@ export default function Footer({ language }: FooterProps) {
                 />
               </Link>
               <Link
-                href="#"
+                href="https://wa.me/0526653443"
                 className="w-10 h-10 sm:w-12 sm:h-12 md:w-[50px] md:h-[50px] hover:scale-110 transition-transform duration-300"
               >
                 <Image
@@ -115,7 +115,7 @@ export default function Footer({ language }: FooterProps) {
                   className="w-full h-full"
                 />
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 className="w-10 h-10 sm:w-12 sm:h-12 md:w-[50px] md:h-[50px] hover:scale-110 transition-transform duration-300"
               >
@@ -126,7 +126,7 @@ export default function Footer({ language }: FooterProps) {
                   height={50}
                   className="w-full h-full"
                 />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

@@ -17,16 +17,16 @@ export default function Hero({ language, onLanguageChange }: HeroProps) {
     const heroContent = {
         en: {
             title: "A+ Academy",
-            tagline: '"Where progress begins."',
+            tagline: '"Unlock Your Potential"',
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Our vision is to guide every student toward reaching their full potential, at their own pace, in their own way, and with a true sense of achievement.",
             cta: "Get Started",
         },
         he: {
             title: "אקדמיית A+",
-            tagline: '"היכן מתחיל הקידמה."',
+            tagline: '"פתח את הפוטנציאל שלך"',
             description:
-                "לורם איפסום דולור סיט אמט, קונסקטטור אדיפיסינג אלית, סד דו איוסמוד טמפור אינסידידונט",
+                "החזון שלנו הוא ללוות כל תלמיד עד למימוש הפוטנציאל האישי שלו, בקצב המתאים לו, בדרך שלו, ועם חוויית הצלחה אמיתית.",
             cta: "התחל עכשיו",
         },
     };

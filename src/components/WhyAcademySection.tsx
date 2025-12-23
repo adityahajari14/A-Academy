@@ -100,11 +100,11 @@ export default function WhyAcademySection({ language }: WhyAcademySectionProps) 
         en: {
             title: "Why A+ Academy?",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u",
+                "With over 77 years of combined teaching experience, A+ Academy has helped more than 1000 students achieve their academic goals. Our proven track record of 98% success rate speaks to our commitment to excellence. We combine expertise, personalized attention, and innovative teaching methods to ensure every student reaches their full potential in mathematics.",
             stats: [
                 { value: "77+", label: "Years of Experience" },
                 { value: "98%", label: "Success Rate" },
-                { value: "1245", label: "Students" },
+                { value: "1000+", label: "Students" },
             ],
             features: [
                 {
@@ -127,22 +127,28 @@ export default function WhyAcademySection({ language }: WhyAcademySectionProps) 
         he: {
             title: "למה אקדמיית A+?",
             description:
-                "לורם איפסום דולור סיט אמט, קונסקטטור אדיפיסינג אלית, סד דו איוסמוד טמפור אינסידידונט אוט לבורה את דולורה מגנה אליקווה. אוט אנים אד מינים ונאים",
+                "עם יותר מ-77 שנות ניסיון משולבות בהוראה, אקדמיית A+ עזרה ליותר מ-1000 תלמידים להשיג את המטרות האקדמיות שלהם. שיעור ההצלחה המוכח שלנו של 98% מעיד על המחויבות שלנו למצוינות. אנו משלבים מומחיות, תשומת לב אישית ושיטות הוראה חדשניות כדי להבטיח שכל תלמיד יגיע לפוטנציאל המלא שלו במתמטיקה.",
             stats: [
                 { value: "77+", label: "שנות ניסיון" },
-                { value: "1245", label: "תלמידים" },
                 { value: "98%", label: "אחוז הצלחה" },
+                { value: "1000+", label: "תלמידים" },
             ],
             features: [
                 {
-                    text: "הכנה מקיפה לבחינות בגרות (3, 4 ו-5 יחידות)",
+                    text: "הכנה לתלמידי חטיבת ביניים המעברים לתיכון, כולל בחינות מיון",
                 },
                 {
-                    text: "שיעורים בקבוצות קטנות ושיעורים פרטיים אחד על אחד",
+                    text: "הכנה לבגרות | 3–4–5 יחידות לימוד",
+                },
+                {
+                    text: "שיעורים פרטיים ושיעורים בקבוצות קטנות",
                 },
                 {
                     text: "שיעורים מקוונים (וירטואליים) ומפגשים בכיתה",
                 },
+                {
+                    text: "חונכות אקדמית מותאמת אישית המתמקדת בבניית ביטחון, משמעת וחשיבה עצמאית",
+                }
             ]
         },
     };

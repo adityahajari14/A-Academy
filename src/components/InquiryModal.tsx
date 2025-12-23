@@ -86,20 +86,20 @@ export default function InquiryModal({ isOpen, onClose, language }: InquiryModal
         he: {
             leftTitle: "קבע את הייעוץ החינמי שלך",
             leftDescription:
-                "לורם איפסום דולור סיט אמט, קונסקטטור אדיפיסינג אלית, סד דו איוסמוד טמפור אינסידידונט אוט לבורה את דולורה מגנה אליקווה.",
-            formTitle: "טופס בירור",
+                "הזדמן לך להכיר את אקדמיית A+ ולגלות כיצד נוכל לעזור לך להשיג את המטרות האקדמיות שלך. מלא את הטופס ונחזור אליך בהקדם כדי לתאם פגישת ייעוץ אישית.",
+            formTitle: "טופס פניה",
             fields: {
                 fullName: "שם מלא",
                 email: "כתובת אימייל",
                 phone: "מספר טלפון",
                 preferredDate: "תאריך מועדף",
-                preferredTime: "זמן",
+                preferredTime: "שעה",
                 message: "הודעה",
             },
             placeholders: {
                 fullName: "הזן שם מלא",
-                email: "הזן מזהה אימייל",
-                phone: "מספר טלפון",
+                email: "הזן כתובת אימייל",
+                phone: "הזן מספר טלפון",
                 preferredDate: "יום/חודש/שנה",
                 preferredTime: "שעה:דקה",
                 message: "הזן הודעה",
@@ -365,7 +365,7 @@ export default function InquiryModal({ isOpen, onClose, language }: InquiryModal
                             className="bg-[#008a01] hover:bg-[#00700F] text-white font-[family-name:var(--font-montserrat)] font-semibold text-sm sm:text-base md:text-lg lg:text-[18px] h-11 sm:h-12 w-full md:w-[187px] px-5 sm:px-6 py-2.5 sm:py-3 transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 transform hover:scale-105 mt-2 rounded-sm"
                             disabled={isSubmitting}
                         >
-                            {isSubmitting ? "Submitting..." : currentContent.submit}
+                            {isSubmitting ? (language === "he" ? "שולח..." : "Submitting...") : currentContent.submit}
                         </button>
                     </form>
                 </div>
