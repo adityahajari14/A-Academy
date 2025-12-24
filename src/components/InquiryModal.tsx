@@ -94,12 +94,12 @@ export default function InquiryModal({ isOpen, onClose, language }: InquiryModal
             aria-labelledby="modal-title"
         >
             <div
-                className="relative bg-white w-full max-w-full sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-[1200px] h-auto max-h-[95vh] sm:max-h-[90vh] flex flex-col md:flex-row overflow-hidden shadow-2xl rounded-lg sm:rounded-none"
+                className="relative bg-white w-full max-w-full sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-[1200px] h-auto max-h-[95vh] sm:max-h-[90vh] md:max-h-[95vh] flex flex-col md:flex-row overflow-hidden shadow-2xl rounded-lg sm:rounded-none"
                 onClick={(e) => e.stopPropagation()}
                 dir={isHebrew ? "rtl" : "ltr"}
             >
                 {/* Left Side - Image with Text */}
-                <div className="relative w-full md:w-[536px] min-h-[300px] sm:min-h-[400px] md:min-h-[726px] overflow-hidden flex-shrink-0 hidden md:block">
+                <div className="relative w-full md:w-[536px] min-h-[300px] sm:min-h-[400px] md:min-h-[726px] overflow-hidden shrink-0 hidden md:block">
                     <div className="absolute inset-0">
                         <Image
                             src="/enquiry-img.webp"
@@ -118,7 +118,7 @@ export default function InquiryModal({ isOpen, onClose, language }: InquiryModal
                         />
                     </div>
 
-                    <div className="w-full max-w-[442px] flex flex-col gap-3 sm:gap-4 text-white absolute left-8 sm:left-12 md:left-[50px] bottom-16 sm:bottom-20 md:bottom-[150px] px-4 sm:px-0">
+                    <div className="w-full max-w-[442px] flex flex-col gap-3 sm:gap-4 text-white absolute left-8 sm:left-12 md:left-[50px] bottom-16 sm:bottom-20 md:bottom-[150px] px-4 sm:px-0 z-10">
                         <h2 className="font-[family-name:var(--font-open-sans)] font-semibold text-xl sm:text-2xl md:text-3xl lg:text-[32px] leading-[1.51]">
                             {currentContent.leftTitle}
                         </h2>
@@ -129,9 +129,9 @@ export default function InquiryModal({ isOpen, onClose, language }: InquiryModal
                 </div>
 
                 {/* Right Side - Calendly */}
-                <div className="flex-1 flex flex-col px-4 sm:px-6 md:px-12 py-6 sm:py-8 relative bg-white min-w-0 md:min-w-[593px] overflow-y-auto">
+                <div className="flex-1 flex flex-col px-4 sm:px-6 md:px-12 py-6 sm:py-8 relative bg-white min-w-0 md:min-w-[593px] overflow-y-auto max-h-full">
                     {/* Header */}
-                    <div className="flex items-center justify-between mb-4 sm:mb-6">
+                    <div className="flex items-center justify-between mb-4 sm:mb-6 shrink-0">
                         <h3
                             id="modal-title"
                             className="font-[family-name:var(--font-open-sans)] font-semibold text-lg sm:text-xl md:text-2xl lg:text-[24px] text-black leading-[1.51]"
@@ -140,7 +140,7 @@ export default function InquiryModal({ isOpen, onClose, language }: InquiryModal
                         </h3>
                         <button
                             onClick={handleClose}
-                            className="w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center hover:bg-gray-100 rounded-full transition-colors flex-shrink-0"
+                            className="w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center hover:bg-gray-100 rounded-full transition-colors shrink-0"
                             aria-label="Close modal"
                         >
                             <svg
@@ -163,8 +163,12 @@ export default function InquiryModal({ isOpen, onClose, language }: InquiryModal
                     {/* Calendly Widget */}
                     <div 
                         id="calendly-inline-widget" 
-                        className="calendly-inline-widget w-full min-h-[600px] sm:min-h-[700px]"
-                        style={{ minHeight: '600px' }}
+                        className="calendly-inline-widget w-full flex-1 min-h-[500px] sm:min-h-[600px] md:min-h-[650px] overflow-y-auto"
+                        style={{ 
+                            minHeight: '500px',
+                            maxHeight: 'calc(95vh - 120px)',
+                            WebkitOverflowScrolling: 'touch'
+                        }}
                     />
                 </div>
             </div>

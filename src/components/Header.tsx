@@ -83,10 +83,10 @@ export default function Header({
         headerLoaded ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
       }`}
     >
-      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 py-2 flex items-center justify-between">
+      <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 py-2 flex items-center justify-between min-w-0">
         {/* Logo */}
         <div
-          className={`flex items-center transition-all duration-500 ${
+          className={`flex items-center shrink-0 transition-all duration-500 ${
             headerLoaded ? "opacity-100 scale-100" : "opacity-0 scale-90"
           }`}
           style={{ transitionDelay: "0.1s" }}
@@ -96,7 +96,9 @@ export default function Header({
             alt="A+ Academy Logo"
             width={120}
             height={60}
-            className="cursor-pointer hover:scale-105 transition-transform duration-300 w-20 h-10 sm:w-24 sm:h-12 md:w-28 md:h-14 lg:w-[120px] lg:h-[60px]"
+            className="cursor-pointer hover:scale-105 transition-transform duration-300 w-20 h-10 sm:w-24 sm:h-12 md:w-28 md:h-14 lg:w-[120px] lg:h-[60px] object-contain"
+            priority
+            style={{ minWidth: '80px', minHeight: '40px' }}
           />
         </div>
 
