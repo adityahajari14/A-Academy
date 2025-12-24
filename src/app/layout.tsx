@@ -52,7 +52,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="he">
       <body className={`${playfair.variable} ${poppins.variable} ${montserrat.variable} ${inter.variable} ${openSans.variable}`}>
         {children}
       </body>

@@ -78,9 +78,9 @@ export default function Loader({ onComplete }: LoaderProps) {
             priority
           />
           {/* Glow effect */}
-          <div className={`absolute inset-0 bg-[#008A01]/20 blur-2xl -z-10 transition-opacity duration-500 ${
+          {/* <div className={`absolute inset-0 bg-[#008A01]/20 blur-2xl -z-10 transition-opacity duration-500 ${
             isFadingOut ? "opacity-0" : "animate-pulse-glow"
-          }`} />
+          }`} /> */}
         </div>
       </div>
 
