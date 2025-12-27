@@ -24,7 +24,7 @@ export default function Hero({ language, onLanguageChange }: HeroProps) {
         },
         he: {
             title: "אקדמיית A+",
-            tagline: '"פתח את הפוטנציאל שלך"',
+            tagline: '"הדרך שלך להצלחה"',
             description:
                 "החזון שלנו הוא ללוות כל תלמיד עד למימוש הפוטנציאל האישי שלו, בקצב המתאים לו, בדרך שלו, ועם חוויית הצלחה אמיתית.",
             cta: "התחל עכשיו",

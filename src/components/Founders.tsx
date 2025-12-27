@@ -27,7 +27,7 @@ const foundersData: Founder[] = [
     he: {
       name: "אימאן טנוס",
       title: "מומחית מתמטיקה",
-      bio: "בעלת תואר ראשון במתמטיקה ומדעי המחשב מאוניברסיטת חיפה, עם ניסיון של מעל 33 שנה בהכנה לבגרויות במתמטיקה. מומחית בהוראת 3, 4 ו-5 יחידות לימוד, ומלווה תלמידים להצלחה תוך שילוב של מקצועיות, סבלנות והבנה עמוקה של צורכי כל תלמיד ותלמידה.",
+      bio: "בעלת תואר ראשון במתמטיקה ומדעי המחשב מאוניברסיטת חיפה, עם ניסיון של מעל 33 שנה בהכנה לבגרויות במתמטיקה. מומחית בהוראת 3, 4 ו-5 יחידות לימוד, ומלווה תלמידים להצלחה תוך שילוב של מקצועיות, סבלנות והבנה עמוקה של צורכי כל תלמיד.",
       initials: "אט",
     },
   },
@@ -75,14 +75,10 @@ export default function Founders({ language = "en" }: FoundersProps) {
 
   const copy = {
     en: {
-      title: "Meet Our Founders",
-      subtitle:
-        "Two passionate educators with decades of experience dedicated to helping students succeed in mathematics.",
+      title: "Meet Our Founders"
     },
     he: {
-      title: "הכירו את המייסדות שלנו",
-      subtitle:
-        "שתי מחנכות נלהבות עם עשרות שנות ניסיון המסורות לסייע לתלמידים להצליח במתמטיקה.",
+      title: "הכירו את המייסדות שלנו"
     },
   } as const;
 
@@ -105,14 +101,6 @@ export default function Founders({ language = "en" }: FoundersProps) {
           >
             {t.title}
           </h2>
-          <p
-            className={`font-[family-name:var(--font-open-sans)] font-light text-sm sm:text-base md:text-lg lg:text-xl leading-[1.51] text-black w-full mt-4 sm:mt-5 md:mt-6 transition-all duration-700 ${
-              visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-            }`}
-            style={{ transitionDelay: "0.2s" }}
-          >
-            {t.subtitle}
-          </p>
         </div>
 
         {/* Founders Grid */}

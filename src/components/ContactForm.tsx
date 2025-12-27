@@ -60,7 +60,7 @@ export default function ContactForm({ language }: ContactFormProps) {
                 name: "שם",
                 email: "אימייל",
                 phone: "מספר טלפון",
-                query: "שאלה",
+                query: "הודעה",
             },
             placeholders: {
                 name: "הזן שם",
